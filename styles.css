@@ -1,8 +1,13 @@
 /* Typography */
 body {
-    /* Everything is Rasa */
-    font-family: 'Bebas Neue', cursive;
+    /* Everything is Lato */
+    font-family: 'Montserrat', sans-serif;
   }
+
+  .navbar {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
 
   /* "logo" is bigger */
   .navbar-brand {
@@ -16,30 +21,53 @@ body {
   .navbar-light .navbar-brand {
     color: teal;
   }
-  
-  /* Navbar background color */
-  .navbar-light {
-    background-color: lightgray;
+
+  .btn-primary {
+    background-color: teal;
+    color: white;
   }
   
+  .masthead {
+    /* Background */
+    min-height: 200px;
+    color: teal;
+  }
+
+  .masthead-special {
+    /* Background */
+    min-height: 20px;
+    color: teal;
+  }
+
   /* Jumbotron background and font styles */
-  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */  
   .jumbotron {
     /* Background */
     background-attachment: scroll;
     background-image: url(bellagio.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-  
-    /* Fonts */
-    /* The text-shadow helps the white text stand out better on a darker background */
-    color: white;
-    text-shadow: 2px 2px 2px darkslategray;
+    min-height: 1000px;
   }
+
+  .jumbotron-special {
+    /* Background */
+    background-attachment: scroll;
+    background-image: url(draftheader.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 1000px;
+
+  /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: black;
+  }
+
   
-  /* The background color of the "testimonials" part */
-  .testimonials {
-    background-color: #eeeeee;
+  /* Format the h1 */
+  .h1 {
+    font-size: x-large;
+    vertical-align: middle;
   }
   
   /* The size of the testimonials images */
@@ -48,16 +76,23 @@ body {
     height: 64px;
   }
   
-  /* The pricing */
-  .pricing {
-    background-color: #181818;
-  }
-  .pricing h1 {
-    font-family: 'Permanent Marker', cursive;
-    color: #cccccc;
+  .carousel {
+    max-height: 800px;
+    overflow: hidden;
   }
   
+    .item img {
+      width: 100%;
+      height: auto;
+    }
+
   /* The footer */
+
+  .footer {
+    color: teal;
+    font-family: 'Bebas Neue', cursive;
+  }
+
   .footer img {
     width: 100px;
   }
