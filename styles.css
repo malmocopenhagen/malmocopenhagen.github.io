@@ -1,6 +1,6 @@
 /* Typography */
 body {
-    /* Everything is Lato */
+    /* Everything is Montserrat */
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -22,11 +22,13 @@ body {
     color: teal;
   }
 
+   /* Button */
   .btn-primary {
     background-color: teal;
     color: white;
   }
   
+   /* Masthead */
   .masthead {
     /* Background */
     min-height: 200px;
@@ -40,8 +42,8 @@ body {
   }
 
   /* Jumbotron background and font styles */
-  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */  
   .jumbotron {
+
     /* Background */
     background-attachment: scroll;
     background-image: url(bellagio.jpg);
@@ -59,7 +61,6 @@ body {
     min-height: 1000px;
 
   /* Fonts */
-  /* The text-shadow helps the white text stand out better on a darker background */
   color: black;
   }
 
@@ -68,12 +69,6 @@ body {
   .h1 {
     font-size: x-large;
     vertical-align: middle;
-  }
-  
-  /* The size of the testimonials images */
-  .media img {
-    width: 64px;
-    height: 64px;
   }
   
   .carousel {
@@ -87,7 +82,6 @@ body {
     }
 
   /* The footer */
-
   .footer {
     color: teal;
     font-family: 'Bebas Neue', cursive;
