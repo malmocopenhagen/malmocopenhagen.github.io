@@ -42,17 +42,8 @@ body {
   }
 
   /* Jumbotron background and font styles */
+ 
   .jumbotron {
-
-    /* Background */
-    background-attachment: scroll;
-    background-image: url(bellagio.jpg);
-    background-repeat: repeat;
-    background-size: cover;
-    min-height: 1000px;
-  }
-
-  .jumbotron-special {
     /* Background */
     background-attachment: scroll;
     background-image: url(draftheader.jpg);
